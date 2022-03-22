@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-libgcrypt-master.flake = false;
+  inputs.src-libgcrypt-master.ref   = "refs/heads/master";
   inputs.src-libgcrypt-master.owner = "FedericoCeratto";
-  inputs.src-libgcrypt-master.ref   = "master";
   inputs.src-libgcrypt-master.repo  = "nim-libgcrypt";
   inputs.src-libgcrypt-master.type  = "github";
   
