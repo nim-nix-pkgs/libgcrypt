@@ -11,7 +11,6 @@
   inputs.src-libgcrypt-master.ref   = "refs/heads/master";
   inputs.src-libgcrypt-master.owner = "FedericoCeratto";
   inputs.src-libgcrypt-master.repo  = "nim-libgcrypt";
-  inputs.src-libgcrypt-master.dir   = "";
   inputs.src-libgcrypt-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
